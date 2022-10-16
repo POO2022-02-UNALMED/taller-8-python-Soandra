@@ -5,7 +5,7 @@ from persona import Persona
 class Futbolista:
     _listaFutbolistas = list()
 
-    def __init__(self, golesMarcados, tarjetasRojas, piernaHabil, nombre, edad, altura, sexo, deporte, añosPracticando) -> None:
+    def __init__(self, golesMarcados, tarjetasRojas, piernaHabil, nombre, edad, altura, sexo, añosPracticando, deporte = "Futbol"):
         Persona.__init__(self, nombre, edad, altura, sexo)
         Deportista.__init__(self, deporte, añosPracticando)
         self._golesMarcados = golesMarcados
