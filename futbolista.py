@@ -16,14 +16,20 @@ class Futbolista:
         def __str__(self):
             return f"Mi nombre es {self.getNombre()} soy profesional en el deporte {self.getDeporte()} Tengo {self.getEdad()} años de edad y llevo {self.getAñosPracticando()} años en el deporte"
 
-        def setNombre(self, golesMarcados):
+        def setGolesMarcados(self, golesMarcados):
             self._golesMarcados = golesMarcados
 
-        def getNombre(self):
+        def getGolesMarcados(self):
             return self._golesMarcados
 
-        def setNombre(self, tarjetasRojas):
+        def setTarjetasRojas(self, tarjetasRojas):
             self._tarjetasRojas = tarjetasRojas
 
-        def getNombre(self):
+        def getTarjetasRojas(self):
             return self._tarjetasRojas
+
+        def setPiernaHabil(self, piernaHabil):
+            self._piernaHabil = piernaHabil
+
+        def getPiernaHabil(self):
+            return self._piernaHabil
